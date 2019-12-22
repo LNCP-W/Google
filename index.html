@@ -3,28 +3,36 @@
     <head>
         <title>Google</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/reset.css">
+        <link rel="stylesheet" type="text/css" href="/styles.css">
     </head>
     <body>
-        <p> 
+        <div class="header">
             <a href="https://mail.google.com/mail/?tab=wm&ogbl"> Gmail</a>  
-            <a href="https://www.google.com.ua/imghp?hl=uk&tab=wi&ogbl">Зображення</a> 
-            <a href="https://www.google.com.ua/intl/uk/about/products?tab=wh"><img src="/img/all.png" alt="apps"></a> 
-            <a href="https://accounts.google.com/SignOutOptions"><img src="/img/photo.jpg" alt="Your logo"></a>
-        </p>
-        <img src="/img/google.png" alt="Doodle">
-        <img src="/img/share.png" alt="Share">
-        <form action="/search.php" method="get">
-            <textarea name="search" id="search" cols="30" rows="1"></textarea> </br>
-            <button type="submit">Пошук Google</button> 
-        </form>
-        <form action="2.php" method="get">
-            <button type="submit">Мені пощастить</button>
-        </form>
-        <p>Мова Google: <a href="">Українська</a></p>
-        <p>Україна</p>
+            <a href="https://www.google.com.ua/imghp?hl=uk&tab=wi&ogbl">Зображення   </a> 
+            <div class="apps">
+                <a href="https://www.google.com.ua/intl/uk/about/products?tab=wh"><img id="apps" src="/img/all.png" alt="apps"></a> 
+                <a href="https://accounts.google.com/SignOutOptions"><img src="/img/photo.jpg" alt="Your logo"></a>
+            </div>    
+        </div>
+        <div class="doodle">
+            <img src="/img/google.png" alt="Doodle">
+            <img id="share" src="/img/share.png" alt="Share">
+        </div>   
+        <div class="form">
+
+            <form action="/search.php" method="get">
+                <textarea name="search"  id="search" cols="44" rows="1"></textarea> </br>
+                <p><button type="submit">Пошук Google</button>  <button type="button" >Мені пощастить</button></p>
+            </form>
+        </div>
+        <div class="lang_sel">
+            <p>Мова Google: <a href="">Українська</a></p>
+        </div>
+        <p id="lang">Україна</p>
         <p>
-            <a href="">Реклама</a> <a href="">Business</a> <a href="">Про Google</a> 
-            <a href="">Як працює Пошук</a>        <a href="">Конфіденційність</a> <a href="">Умови</a> <a href="">Налаштування</a> 
+            <span id="p1"><a href="">Реклама</a> <a href="">Business</a> <a href="">Про Google</a> <a href="">Як працює Пошук</a></span> 
+            <span id="p2"><a href="">Конфіденційність</a> <a href="">Умови</a> <a href="">Налаштування</a></span> 
         </p>
     </body>
 </html>

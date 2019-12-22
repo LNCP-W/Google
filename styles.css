@@ -1,0 +1,49 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    margin: 15px;
+    font-size: 13px;
+    color: black;
+    text-align: right ;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 66px;
+    word-spacing: 10px;
+    letter-spacing: 0.03em;
+    margin: 25px 35px;
+}
+.apps{
+    float: right;
+    margin: -10px 0px 0px 10px;
+}
+.doodle{
+    text-align: center;
+    margin-right: 33px;
+
+}
+#share{
+    text-align: center;
+    margin-left: -55px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+textarea{
+    font-weight: 15px;
+}
+.form{
+    text-align: center;
+}
+.lang_sel{
+    margin-top: 120px;
+    text-align: center;
+}
+a.lang_sel{
+    color: blue;
+}
