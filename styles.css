@@ -17,6 +17,9 @@ html{
     float: right;
     margin: -10px 0px 0px 10px;
 }
+#apps:hover{
+    filter: brightness(60);
+}
 .doodle{
     text-align: center;
     margin-right: 33px;
@@ -26,24 +29,89 @@ html{
     text-align: center;
     margin-left: -55px;
 }
+#share:hover{
+    filter: sepia(2);
+}
 a{
     color: black;
     text-decoration: none;
+    cursor: pointer
 }
 a:hover{
     color: black;
     text-decoration: underline;
 }
-textarea{
-    font-weight: 15px;
+input{
+    width: 500px;
+    height: 44px;
+    font-weight: 12px;
+    padding: 0px 40px;
+    border-radius: 22px;
+    border: 1px solid rgb(189, 189, 189);
+    }
+input:hover{
+    box-shadow: 0px 0px 4px rgb(117, 117, 117);
+    
 }
 .form{
     text-align: center;
 }
 .lang_sel{
-    margin-top: 120px;
+    margin-top: 60px;
     text-align: center;
+    font-size: 13px;
 }
-a.lang_sel{
+.lang_sel a{
     color: blue;
+    font-size: 12;
+}
+#lang {
+    margin-top: 92px;
+    color: rgb(117, 117, 117);
+    background-color: rgb(235, 231, 231);
+    padding: 11px 41px;
+    border:1px solid rgb(221, 219, 219) ;
+    border-width: 1px 0px;
+    margin-bottom: 11px;
+}
+#p1, #p2{
+    font-size: 13px;
+    margin-top: 150px;
+    margin-right: 0px;
+    color: rgb(117, 117, 117);
+    background-color: rgb(235, 231, 231);
+    padding: 11px 10px;
+    border:1px solid rgb(221, 219, 219) ;
+    border-width: 1px 0px;
+    word-spacing: 10px;
+}   
+#p1 a,#p2 a{
+    color: rgb(117, 117, 117);
+    word-spacing: 1 px;
+}
+#p1{
+    text-align: left;
+    padding-right: 30px;
+    margin-right: -10px;
+    padding-left: 40px;
+}
+#p2{
+    text-align: right;
+    padding-left: 640px;
+    padding-right: 22px;
+}
+button {
+    color: rgb(117, 117, 117);
+    margin-top: 20px;
+    border: 0px;
+    padding: 8px 20px;
+    background-color: rgb(235, 231, 231);
+    border-radius: 4px;
+    cursor: pointer
+}
+button:hover{
+    color: rgb(70, 70, 70);
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 4px;
+    padding: 6px 19px;
 }
